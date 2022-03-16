@@ -19,15 +19,14 @@ body{
 h1{
     text-align: center;
 }
-.divno{
+.text{
     float: left;
     width: 346px;
     margin-right: 4%;
 }
-#vik {
+#knopki {
     display: flex;
     list-style: none ;
-    width: 120mm;
     margin: auto;
     color: wheat;
     text-decoration: none;
