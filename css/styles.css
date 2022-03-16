@@ -1,0 +1,43 @@
+body{
+    background-color: rgba(184, 173, 173, 0.404);
+    font-family: Bradley Hand, cursive, Palatino, URW Palladio L, serif;
+}
+.istina{
+    position: relative  ;
+    box-sizing: border-box;
+    padding: 10mm 25mm 10mm 25mm;
+    border: 1px solid rgb(163, 161, 161);
+    width: 250mm;
+    margin: auto auto;
+    box-shadow: 0 0 5mm 5mm #c0bebed8;
+    text-align: justify;
+    text-indent: 40px;
+    font-size: x-large;
+    background-color: aliceblue;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+}
+.divno{
+    float: left;
+    width: 346px;
+    margin-right: 4%;
+}
+#vik {
+    display: flex;
+    list-style: none ;
+    width: 120mm;
+    margin: auto;
+    color: wheat;
+    text-decoration: none;
+    justify-content: center;
+}
+#But {
+    padding:  3mm; 
+    font-size: 100%;
+    border-radius: 12px;
+    background-color: rgb(107, 107, 204);
+    color: wheat;
+    text-decoration: none;
+}
