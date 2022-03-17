@@ -1,15 +1,15 @@
 body{
-    background-color: rgba(184, 173, 173, 0.404);
+    background-color: #fcfcfc;
     font-family: Bradley Hand, cursive, Palatino, URW Palladio L, serif;
 }
 .istina{
-    position: relative  ;
+    position: relative;
     box-sizing: border-box;
     padding: 10mm 25mm 10mm 25mm;
-    border: 1px solid rgb(163, 161, 161);
+    border: 1px solid #ffdbca;
     width: 250mm;
-    margin: auto auto;
-    box-shadow: 0 0 5mm 5mm #c0bebed8;
+    margin-left: 20%;
+    /* box-shadow: 0 0 5mm 5mm #ffdbca; */
     text-align: justify;
     text-indent: 40px;
     font-size: x-large;
@@ -19,22 +19,21 @@ body{
 h1{
     text-align: center;
 }
-.text{
+.nav {
+    position: fixed;
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+    width: 220px;
+    height: 100%;
     float: left;
-    width: 346px;
-    margin-right: 4%;
 }
-#knopki {
-    display: flex;
-    list-style: none ;
-    margin: auto;
-    color: wheat;
-    text-decoration: none;
-    justify-content: center;
-}
-#But {
-    padding:  3mm; 
-    font-size: 100%;
+a {
+    display: inline-block;
+    padding:  2mm; 
+    margin: 1mm;
+    line-height: 3mm;
+    width: 70%;
     border-radius: 12px;
     background-color: rgb(107, 107, 204);
     color: wheat;
