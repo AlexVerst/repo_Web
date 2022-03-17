@@ -6,17 +6,17 @@ body{
     position: relative;
     box-sizing: border-box;
     padding: 10mm 25mm 10mm 25mm;
-    border: 1px solid #ffdbca;
+    border-radius: 60px;
     width: 250mm;
     margin-left: 20%;
     /* box-shadow: 0 0 5mm 5mm #ffdbca; */
     text-align: justify;
     text-indent: 40px;
     font-size: x-large;
-    background-color: aliceblue;
+    background-color: #E7E0EC;
     text-decoration: none;
 }
-h1{
+h1, ul{
     text-align: center;
 }
 .nav {
@@ -24,7 +24,7 @@ h1{
     list-style-type: none;
     padding-left: 0;
     margin-left: 0;
-    width: 220px;
+    width: 180px;
     height: 100%;
     float: left;
 }
@@ -32,10 +32,19 @@ a {
     display: inline-block;
     padding:  2mm; 
     margin: 1mm;
-    line-height: 3mm;
-    width: 70%;
+    line-height: 5mm;
+    width: 90%;
     border-radius: 12px;
     background-color: rgb(107, 107, 204);
     color: wheat;
     text-decoration: none;
+    font-size: x-large;
+}
+#pr{
+    color: #ffffff;
+    background-color: #974064;
+}
+#th{
+    background-color: #7d5700;
+    color: #ffffff;
 }
