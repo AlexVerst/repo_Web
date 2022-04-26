@@ -1,6 +1,6 @@
 body{
-    background-color: #fcfcfc;
-    font-family: Bradley Hand, cursive, Palatino, URW Palladio L, serif;
+    background-color: #fdfdf691;
+    font-family:  Palatino, URW Palladio L, serif;
 }
 .istina{
     position: relative;
@@ -13,7 +13,8 @@ body{
     text-align: justify;
     text-indent: 40px;
     font-size: x-large;
-    background-color: #E7E0EC;
+    background-color: #d7ecc5;
+    color: #0e180a;
     text-decoration: none;
 }
 h1, ul{
@@ -21,30 +22,26 @@ h1, ul{
 }
 .nav {
     position: fixed;
-    list-style-type: none;
-    padding-left: 0;
-    margin-left: 0;
-    width: 180px;
+    /* list-style-type: none; */
+    width: 18%;
     height: 100%;
-    float: left;
 }
 a {
     display: inline-block;
     padding:  2mm; 
     margin: 1mm;
-    line-height: 5mm;
+    line-height: 7mm;
     width: 90%;
-    border-radius: 12px;
+    border-radius: 25px;
     background-color: rgb(107, 107, 204);
-    color: wheat;
     text-decoration: none;
-    font-size: x-large;
+    font-size: 150%;
 }
 #pr{
     color: #ffffff;
-    background-color: #974064;
+    background-color: #176e00;
 }
 #th{
-    background-color: #7d5700;
+    background-color: #55624c;
     color: #ffffff;
 }
